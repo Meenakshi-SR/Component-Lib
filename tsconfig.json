@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true, // ✅ Enables default imports for CommonJS modules
+    "allowSyntheticDefaultImports": true // ✅ Helps with default imports
+  },
+  "include": ["src"]
+}
