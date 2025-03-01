@@ -19,7 +19,9 @@ Clone the repository and install dependencies:
 
 ```sh
 # Clone the repo
-cd notification-component
+git clone https://github.com/Meenakshi-SR/Component-Lib.git
+
+cd Component-Lib
 
 # Install dependencies
 npm install
